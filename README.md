@@ -1,10 +1,10 @@
-# TÍTULO DO PROJETO
+# Biblioteca Anuciar
 
-`CURSO`
+`Analise e desinvolvimento de sistemas`
 
-`DISCIPLINA`
+`Trabalho Interdisciplinar: Aplicação Móvel`
 
-`SEMESTRE`
+`4 peiodo`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
