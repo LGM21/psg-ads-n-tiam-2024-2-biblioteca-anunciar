@@ -11,8 +11,11 @@ A equipe adotou uma metodologia de trabalho baseada em práticas ágeis, utiliza
 Os artefatos do projeto são desenvolvidos em diversas plataformas, que facilitam o controle do ciclo de vida do software, desde o desenvolvimento até os testes. A tabela a seguir especifica os ambientes, as plataformas e os links de acesso relevantes:
 
 Desenvolvimento Local	= Visual Studio
+
 Controle de Versão	= GitHub
+
 Gerenciamento de Projeto	= Trello
+
 Integração Contínua	= GitHub Actions	
 
 ## Controle de Versão
