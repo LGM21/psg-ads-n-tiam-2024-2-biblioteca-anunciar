@@ -54,13 +54,41 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+1.	Funcionalidade
+	•	Completude Funcional: O aplicativo deve incluir todas as funcionalidades necessárias para catalogação, busca e gerenciamento de empréstimos e devoluções de livros.
+	•	Correção Funcional: As funcionalidades implementadas devem operar corretamente, sem falhas, garantindo que os usuários possam realizar suas operações sem erros.           
+2.	Usabilidade
+	•	Operacionalidade: O aplicativo deve ser intuitivo, permitindo que os usuários realizem operações sem dificuldades, facilitando a experiência de uso, especialmente para aqueles com menos familiaridade com tecnologia.
+	•	Acessibilidade: O design do aplicativo deve considerar as necessidades de todos os usuários, incluindo aqueles com deficiências, garantindo que todos possam acessar e utilizar o sistema adequadamente.
+3.	Confiabilidade
+	•	Disponibilidade: O sistema deve estar disponível para uso sempre que necessário, minimizando o tempo de inatividade e garantindo que os usuários possam acessar as funcionalidades do aplicativo sempre que precisarem.
+	•	Recuperabilidade: O aplicativo deve ter mecanismos de recuperação de dados em caso de falhas, assegurando que as informações não sejam perdidas.
+4.	Eficiência
+	•	Tempo de Resposta: O aplicativo deve ser responsivo, com tempos de resposta rápidos para as operações realizadas pelos usuários, como buscas e registros de empréstimos.
+	•	Utilização de Recursos: O sistema deve ser desenvolvido de forma a otimizar o uso de recursos do dispositivo em que está sendo executado, garantindo um desempenho adequado mesmo em máquinas com especificações mais modestas.
 
-No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
+Justificativa das Subcaracterísticas Escolhidas
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
+As subcaracterísticas escolhidas são fundamentais para garantir que o aplicativo atenda efetivamente às necessidades da comunidade da Igreja Batista Anunciar. A funcionalidade é crucial para que os usuários consigam realizar as operações de catalogação e gerenciamento sem frustrações. A usabilidade garante que o sistema seja acessível e fácil de usar, promovendo uma melhor experiência para todos os membros da igreja, independentemente de sua habilidade tecnológica. A confiabilidade assegura que o sistema seja um recurso confiável, onde os usuários podem depender de sua operação sem medo de perder informações. Por fim, a eficiência é essencial para que o aplicativo funcione de maneira fluida, proporcionando uma interação rápida e agradável para os usuários.
 
+Métricas de Avaliação
+
+Para garantir que as subcaracterísticas de qualidade estão sendo atendidas, as seguintes métricas serão utilizadas:
+
+	•	Funcionalidade:
+	•	Percentual de funcionalidades implementadas conforme as especificações.
+	•	Taxa de erro em funcionalidades após testes.
+	•	Usabilidade:
+	•	Tempo médio que um usuário leva para realizar operações específicas (como buscar um livro ou registrar um empréstimo).
+	•	Resultados de questionários de satisfação do usuário sobre a interface e facilidade de uso.
+	•	Confiabilidade:
+	•	Tempo médio entre falhas (MTBF) durante testes de uso.
+	•	Tempo médio para recuperação de falhas (MTTR).
+	•	Eficiência:
+	•	Tempo médio de resposta para operações críticas, como busca de livros.
+	•	Consumo de recursos (CPU e memória) durante operações do aplicativo.
+
+Com essa estrutura, você pode abordar a qualidade de software de forma clara e objetiva, alinhando as necessidades do seu projeto com as características e métricas adequadas. Se precisar de mais ajustes ou detalhes, estou à disposição
 > **Links Úteis**:
 >
 > - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
